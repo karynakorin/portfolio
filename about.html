@@ -20,16 +20,42 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <nav>
-      <br />
-      <br />
-      <br />
-      <br />
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Karyna Korin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <header>
-      <a href="index.html" class="return-button">Back to homepage</a>
       <h1>About me</h1>
       <h3>Front-end developer from Montreal, Canada</h3>
+    </header>
+    <main>
       <div class="about-me-info">
         <div class="info-section-1">
           <p>
@@ -68,8 +94,12 @@
           >karynakorin@gmail.com</a
         >
       </div>
-    </header>
-    <menu></menu>
+    </main>
     <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
